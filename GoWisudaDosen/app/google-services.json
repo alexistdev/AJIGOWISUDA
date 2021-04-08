@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "480058727988",
+    "firebase_url": "https://fir-f93b7.firebaseio.com",
+    "project_id": "fir-f93b7",
+    "storage_bucket": "fir-f93b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480058727988:android:f095d90c971b48de7cb461",
+        "android_client_info": {
+          "package_name": "com.ajikartiko.go_wisuda_dosen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480058727988-ltc3dm8ll87a9il4k895jeiugl1bknqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACcho2nR7xuIOw28Nu3fJaryQkg7dvMuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480058727988-ltc3dm8ll87a9il4k895jeiugl1bknqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480058727988:android:66aeecc6a57b65507cb461",
+        "android_client_info": {
+          "package_name": "com.ajikartiko.gowisuda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480058727988-2shk5f9tsqsj970clvob1lpltneve1mm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajikartiko.gowisuda",
+            "certificate_hash": "c16e5a188c0fcc22840a044331ed8d7e7d28f83c"
+          }
+        },
+        {
+          "client_id": "480058727988-rdfa7c9hnsbe59mjdrsbk6p2e7chkois.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajikartiko.gowisuda",
+            "certificate_hash": "5f2c9afaef805f37a5af6a660fba4b81907d4acf"
+          }
+        },
+        {
+          "client_id": "480058727988-ug6sdi96j0km7304ha8nvvfatc4n5k1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajikartiko.gowisuda",
+            "certificate_hash": "5b6cd3eaa11eb14d24ce8ea0905a174dcbf75f07"
+          }
+        },
+        {
+          "client_id": "480058727988-ltc3dm8ll87a9il4k895jeiugl1bknqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACcho2nR7xuIOw28Nu3fJaryQkg7dvMuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480058727988-ltc3dm8ll87a9il4k895jeiugl1bknqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480058727988:android:0cb2a47e6b3601067cb461",
+        "android_client_info": {
+          "package_name": "com.ajikartiko.gowisuda2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480058727988-sg38l0flfq242a2pah0n99mfp42g1aee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajikartiko.gowisuda2",
+            "certificate_hash": "5f2c9afaef805f37a5af6a660fba4b81907d4acf"
+          }
+        },
+        {
+          "client_id": "480058727988-ltc3dm8ll87a9il4k895jeiugl1bknqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACcho2nR7xuIOw28Nu3fJaryQkg7dvMuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480058727988-ltc3dm8ll87a9il4k895jeiugl1bknqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

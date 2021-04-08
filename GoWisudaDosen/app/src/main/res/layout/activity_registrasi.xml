@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    tools:context=".Registrasi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGN-IN"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:hintEnabled="false"
+            app:startIconDrawable="@drawable/ic_person"
+            app:startIconCheckable="true"
+            android:layout_marginBottom="10dp"
+            app:startIconTint="@color/colorAccent">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:inputType="textEmailAddress"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:background="@drawable/edit" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:startIconDrawable="@drawable/ic_lock"
+            app:startIconTint="@color/colorAccent"
+            app:startIconCheckable="true"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/colorAccent">
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:inputType="textPassword"
+                android:background="@drawable/edit" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Sign-up"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/Greylight"
+            android:background="@drawable/button2" />
+
+
+        <TextView
+            android:id="@+id/logindidaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already registred! Login Me."
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:onClick="logindaftar"
+            android:translationY="30dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

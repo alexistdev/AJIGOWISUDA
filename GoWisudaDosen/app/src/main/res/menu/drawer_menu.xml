@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/nav_dasboard"
+            android:icon="@drawable/ic_dashboard"
+            android:iconTint="@color/startblue"
+            android:title="Dasboard">
+        </item>
+
+        <item android:id="@+id/nav_mahasiswa"
+            android:icon="@drawable/ic_person"
+            android:iconTint="@color/startblue"
+            android:title="Find Dosen">
+        </item>
+
+        <item android:id="@+id/nav_settting"
+            android:icon="@drawable/ic_settings"
+            android:iconTint="@color/startblue"
+            android:title="Setting">
+        </item>
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit"
+            android:iconTint="@color/startblue"
+            android:title="Logout">
+        </item>
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item android:id="@+id/nav_android"
+            android:icon="@drawable/ic_android"
+            android:iconTint="@color/startblue"
+            android:title="Tentang Aplikasi">
+        </item>
+        <item android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:iconTint="@color/startblue"
+            android:title="Share">
+        </item>
+    </group>
+
+</menu>

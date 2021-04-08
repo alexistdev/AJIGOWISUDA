@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Judul">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:background="@drawable/gradientbackground">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:gravity="center"
+         android:orientation="vertical">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="PENGAJUAN JUDUL"
+             android:fontFamily="@font/atmospheric"
+             android:textSize="25dp"
+             android:gravity="center"
+             android:textColorHint="#ffff"/>
+
+     </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/formjudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_insert_file"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/atmospheric"
+            android:layout_marginTop="10dp"
+            android:hint="Form Judul"
+            android:textColorHint="@color/startblue"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/buttondownloadjud"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignRight="@id/formjudul"
+            android:background="@drawable/gradientbackground"
+            android:fontFamily="@font/atmospheric"
+            android:hint="Download"
+            android:textSize="10dp"
+            android:textColorHint="#ffff" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/selectfile"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradientbackground"
+            android:fontFamily="@font/atmospheric"
+            android:layout_marginLeft="40dp"
+            android:hint="Select File"
+            android:textColorHint="#ffff"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/notif"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/selectfile"
+            android:text="No File Is Selected"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/buttonuploadjud"
+            android:layout_width="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradientbackground"
+            android:fontFamily="@font/atmospheric"
+            android:hint="Upload"
+            android:textColorHint="#ffff"
+            android:textSize="10dp" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
