@@ -7,11 +7,6 @@
             android:iconTint="@color/startblue"
             android:title="Dasboard">
         </item>
-        <item android:id="@+id/nav_dosen"
-            android:icon="@drawable/ic_dashboard"
-            android:iconTint="@color/startblue"
-            android:title="Find Dosen">
-        </item>
 
         <item android:id="@+id/nav_settting"
             android:icon="@drawable/ic_settings"

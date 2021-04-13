@@ -16,19 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GoWisuda_Dosen">
-        <activity android:name=".MessageBox"></activity>
-        <activity android:name=".FindMahasiswa" />
-        <activity android:name=".SettingEdit" />
-        <activity
-            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-            android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name=".Setting" />
-        <activity android:name=".Bimbingan" />
-        <activity android:name=".Home" />
-        <activity android:name=".ResendEmail" />
-        <activity android:name=".LupaPassword" />
-        <activity android:name=".Registrasi" />
-        <activity android:name=".Login" />
+        <activity android:name=".UserListActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,6 +27,29 @@
                 <action android:name="android.intent.action.SEND" />
             </intent-filter>
         </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ResendEmailActivity" />
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".CompleteProfileActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".HistoryDetailActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.ajikartiko.go_wisuda_dosen.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 
 </manifest>

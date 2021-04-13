@@ -1,16 +1,15 @@
 package com.ajikartiko.go_wisuda_dosen;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     Handler handler;
-    Runnable runnable;
     ImageView img;
 
     @Override
@@ -22,13 +21,11 @@ public class MainActivity extends AppCompatActivity {
         img.animate().alpha(2000).setDuration(0);
 
         handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent dsp = new Intent(MainActivity.this,Login.class);
-                startActivity(dsp);
-                finish();
-            }
+        handler.postDelayed(() -> {
+            Intent dsp = new Intent(this, LoginActivity.class);
+            startActivity(dsp);
+            finish();
         }, 2000);
+
     }
 }

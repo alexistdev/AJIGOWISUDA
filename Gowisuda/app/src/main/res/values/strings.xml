@@ -1,13 +1,6 @@
 <resources>
     <string name="app_name">Gowisuda</string>
-    <string name="email">Masukan email</string>
-    <string name="password">masukan password</string>
-    <string name="confirmpassword">masukan confirm password</string>
-    <string name="title_activity_header_">Header_Activity</string>
-    <!--
-    This string is used for square devices and overridden by hello_world in
-    values-round/strings.xml for round devices.
-    -->
-    <string name="hello_world">Hello Square World!</string>
-
+    <string name="chat_count">%1$d Chat</string>
+    <string name="chat_msg">%1$s &lt;small>(%2$s)&lt;/small></string>
+    <string name="uploading">Uploading..</string>
 </resources>

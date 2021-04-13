@@ -8,12 +8,6 @@
             android:title="Dasboard">
         </item>
 
-        <item android:id="@+id/nav_mahasiswa"
-            android:icon="@drawable/ic_person"
-            android:iconTint="@color/startblue"
-            android:title="Find Dosen">
-        </item>
-
         <item android:id="@+id/nav_settting"
             android:icon="@drawable/ic_settings"
             android:iconTint="@color/startblue"

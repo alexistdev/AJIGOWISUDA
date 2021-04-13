@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp">
+    <RelativeLayout
+        android:id="@+id/message_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="5dp"
+        android:background="@drawable/background_right">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/fileImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rect_oval_white"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_file_copy" />
+        <TextView
+            android:id="@+id/showmessage"
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:maxWidth="250dp"
+            android:layout_below="@id/fileImage"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="4dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            tools:text="@tools:sample/lorem" />
+
+        <TextView
+            android:id="@+id/message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_below="@id/showmessage"
+            android:layout_alignStart="@id/showmessage"
+            android:layout_marginEnd="8dp"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            tools:text="min, 3-15-2018 03:00" />
+    </RelativeLayout>
+</FrameLayout>

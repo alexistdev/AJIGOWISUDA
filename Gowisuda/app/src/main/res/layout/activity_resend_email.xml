@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ResendEmail">
+    tools:context=".ResendEmailActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -77,26 +77,36 @@
             android:text="tidak menerima tautan? klik Resend Email"
             android:gravity="center"
             android:textSize="15dp"
-            android:translationY="20dp"
+            android:layout_marginTop="10dp"
             android:textColor="@color/colorAccent"
-            app:fontFamily="sans-serif">
+            app:fontFamily="sans-serif"/>
 
-        </com.google.android.material.textview.MaterialTextView>
 
         <Button
             android:id="@+id/resendbutton"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:translationY="50dp"
+            android:layout_marginTop="20dp"
             android:text="RESEND EMAIL"
             android:textSize="15dp"
             android:textColor="@color/Greylight"
             android:fontFamily="sans-serif"
             android:background="@drawable/gradientbackground"/>
 
-
-
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="log out"
+            app:fontFamily="sans-serif"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+            android:background="@null"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent" />
 
 
 
